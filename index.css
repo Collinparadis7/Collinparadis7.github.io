@@ -538,7 +538,7 @@ border-radius:4px;
 box-sizing:border-box;
 display:inline-block;
 font-size:12px;
-margin-left: 10%;
+margin-left: 5%;
 margin-bottom:16px;
 margin-top:6px;
 padding:12px;
@@ -546,7 +546,7 @@ resize:vertical;
 width:80%
 }
 label{
-margin-left: 10%;
+margin-left: 5%;
     }
 @media (max-width: 800px) {
 .container {
@@ -768,6 +768,10 @@ cursor:pointer;
 padding:12px 20px
 }
 
+input[type=text],select,textarea {
+margin-left: 0%;
+
+}
 input[type=submit]:hover {
 background-color:#45a049
 }
@@ -780,7 +784,8 @@ width:100%
 }
 
 label {
-font-size:22px
+font-size:22px;
+margin-left: 0%;
 }
 
 object {
@@ -788,7 +793,7 @@ margin-left:-15%
 }
     .row1
 {
-margin-left:-10%;
+margin-left:-9%;
 
 }
 .row2 {
