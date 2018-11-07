@@ -792,21 +792,21 @@ padding:12px 20px
 
 input[type=text],select,textarea {
 margin-left: 0%;
-
+font-size:50px;
 }
 input[type=submit]:hover {
 background-color:#45a049
 }
 
 input[type=text],select,textarea {
-font-size:23px;
+
 margin-right:20%;
 padding:5px;
 width:100%
 }
 
 label {
-font-size:20px;
+font-size:18px;
 margin-left: 0%;
 }
 
@@ -936,7 +936,7 @@ border:1px solid #ccc;
 border-radius:4px;
 box-sizing:border-box;
 display:inline-block;
-font-size:12px;
+font-size:15px;
 left:0;
 margin-bottom:16px;
 margin-top:6px;
