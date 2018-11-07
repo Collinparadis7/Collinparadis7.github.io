@@ -351,7 +351,7 @@ display: none;
 .row1
 {
 	display: inline;
-	margin-bottom: 4%;
+	margin-bottom: 9%;
 	margin-right: 10%;
 	width: 50%;
 }
@@ -545,26 +545,6 @@ padding:12px;
 resize:vertical;
 width:80%
 }
-.col1-programming
-{
-	margin-bottom: 2%;
-    margin-left:0%;
-	width: 100vw;
-   
-}
-.col2-programming
-{
-	margin-bottom: 2%;
-	margin-left: 18.4%;
-    width: 100vw;
-}
-.col3-programming
-{
-	margin-bottom: 5%;
-	margin-left: 34.8%;
-	width: 100vw;
-    
-}
 label{
 margin-left: 5%;
     }
@@ -672,15 +652,21 @@ width:500px
 }
 
 .col1-programming {
-margin-left:-7%
+margin-left:-7%;
+width: 100vw;
+margin-bottom: 2%;
 }
 
 .col2-programming {
-margin-left:-7%
+margin-left:-7%;
+width: 100vw;
+margin-bottom: 2%;
 }
 
 .col3-programming {
-margin-left:28.8%
+margin-left:28.8%;
+width: 100vw;
+margin-bottom: 2%;
 }
 
 .diagonal {
@@ -737,7 +723,23 @@ margin-left:15%;
 margin-right:0;
 padding-bottom:4%
 }
-
+.row
+{
+	background-color: transparent;
+	border: solid;
+	border-color: #000;
+	border-radius: 4px;
+	color: #000;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 3%;
+	padding-top: 8px;
+    padding-bottom: 8px;
+	text-align: center;
+	width: 160px;
+}
 .triangle-websitetop:after {
 bottom:-2px
 }
@@ -797,14 +799,14 @@ background-color:#45a049
 }
 
 input[type=text],select,textarea {
-font-size:18px;
+font-size:23px;
 margin-right:20%;
 padding:5px;
 width:100%
 }
 
 label {
-font-size:22px;
+font-size:20px;
 margin-left: 0%;
 }
 
@@ -942,12 +944,6 @@ padding:5px;
 resize:vertical;
 width:100%
 }
-
-label {
-font-size:15px;
-font-weight:700
-}
-
 p {
 font-size:25px;
 line-height:1.6;
