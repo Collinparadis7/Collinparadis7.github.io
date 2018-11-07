@@ -786,6 +786,11 @@ font-size:22px
 object {
 margin-left:-15%
 }
+    .row1
+{
+margin-left:-10%;
+
+}
 .row2 {
 width:100%
 }
@@ -862,7 +867,7 @@ font-size:1.2em
 
 h6 {
 color:grey;
-font-size:1em
+font-size:1.4em
 }
 
 hr.style-eight {
