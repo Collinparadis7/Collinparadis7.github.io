@@ -19,18 +19,10 @@
     margin-left: -60px;;
     padding-bottom: 100px;
     height:900px;
+    padding-top: 50px;
   }
 }
-@media (max-width: 800px){
-  iframe[src*="codepen.io"] {
-    width: 600px !important;
-   overflow: hidden;
-   margin-left: -35px;
-  }
-  #fullscreen{
- width: 50%;
-}
-}
+
 </style>
 </head>
 <body  style="overflow-x: hidden">
@@ -143,8 +135,10 @@
   </header>
   <div id="resume" class="container">
     <h3>Resume</h3>
+    <br>
     <object id="pdf" data="resume.pdf" type="application/pdf" width="800" height="1075"></object>
     <h3>Contact</h3>
+    <br>
     <div class="col-md-6">
      <form method="POST" action="https://formspree.io/collinparadis7@gmail.com">
         <label for="Name">Name</label><br>
@@ -171,7 +165,7 @@
   </div>
 <script>
  var w = screen.width;
- alert(w);
+ //alert(w);
  var h= document.documentElement.scrollHeight;
 var height=h-700;
 if (w<=500){
