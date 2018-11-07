@@ -609,7 +609,7 @@ float:left
 }
 
 .message-box {
-margin-left:0;
+margin-left:0%;
 width:100%
 }
 
@@ -629,7 +629,6 @@ padding-top:4px;
 text-align:center;
 width:160px
 }
-
 .card {
 margin-bottom:9%;
 margin-left:18%;
@@ -780,33 +779,8 @@ hr.style-eight:after {
 font-size:2.5em;
 top:-.5em
 }
-
-input[type=submit] {
-background-color:#4CAF50;
-border:none;
-border-radius:4px;
-color:#fff;
-cursor:pointer;
-padding:12px 20px
-}
-
-input[type=text],select,textarea {
-margin-left: 0%;
-font-size:30px;
-}
-input[type=submit]:hover {
-background-color:#45a049
-}
-
-input[type=text],select,textarea {
-font-size:30px;
-margin-right:20%;
-padding:5px;
-width:100%
-}
-
 label {
-font-size:23px;
+font-size:30px;
 margin-left: 0%;
 }
 
@@ -936,8 +910,9 @@ border:1px solid #ccc;
 border-radius:4px;
 box-sizing:border-box;
 display:inline-block;
-font-size:22px;
+font-size:18px;
 left:0;
+margin-left: 0%;
 margin-bottom:16px;
 margin-top:6px;
 padding:5px;
@@ -955,8 +930,8 @@ border-radius:4px;
 box-sizing:border-box;
 display:inline-block;
 height:170px;
-margin:3px 0;
-padding:0 20px;
+margin:0px 0;
+padding:0 5px;
 width:100%
 }
 }
