@@ -297,7 +297,10 @@ label {
 font-size:15px;
 font-weight:700
 }
-
+.row1
+{
+margin-left:-9%;
+}
 
 textarea {
 border:1px solid #ccc;
