@@ -545,6 +545,26 @@ padding:12px;
 resize:vertical;
 width:80%
 }
+.col1-programming
+{
+	margin-bottom: 2%;
+    margin-left:0%;
+	width: 100vw;
+   
+}
+.col2-programming
+{
+	margin-bottom: 2%;
+	margin-left: 18.4%;
+    width: 100vw;
+}
+.col3-programming
+{
+	margin-bottom: 5%;
+	margin-left: 34.8%;
+	width: 100vw;
+    
+}
 label{
 margin-left: 5%;
     }
