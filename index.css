@@ -101,6 +101,7 @@ display: none;
 }
 .col1-programming
 {
+    margin-top: -5%;
 	margin-bottom: 2%;
     margin-left:2%;
 	width: 100%;
@@ -734,11 +735,13 @@ padding-bottom:4%
 	font-size: 15px;
 	font-weight: bold;
 	margin-right: 3%;
-	padding-top: 8px;
+	padding-top: 0px;
     padding-bottom: 8px;
 	text-align: center;
 	width: 160px;
 }
+.row
+
 .triangle-websitetop:after {
 bottom:-2px
 }
