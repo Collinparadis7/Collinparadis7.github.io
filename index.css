@@ -101,7 +101,6 @@ display: none;
 }
 .col1-programming
 {
-    margin-top: -10%;
 	margin-bottom: 2%;
     margin-left:2%;
 	width: 100%;
@@ -652,6 +651,7 @@ width:500px
 }
 
 .col1-programming {
+margin-top: -2%;
 margin-left:-7%;
 width: 100vw;
 margin-bottom: 2%;
@@ -735,13 +735,28 @@ padding-bottom:4%
 	font-size: 15px;
 	font-weight: bold;
 	margin-right: 3%;
-	padding-top: 0px;
+	padding-top: 8px;
     padding-bottom: 8px;
 	text-align: center;
 	width: 160px;
 }
 .row
-
+{
+	background-color: transparent;
+	border: solid;
+	border-color: #000;
+	border-radius: 4px;
+	color: #000;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 3%;
+	padding-top: 8px;
+    padding-bottom: 8px;
+	text-align: center;
+	width: 160px;
+}
 .triangle-websitetop:after {
 bottom:-2px
 }
