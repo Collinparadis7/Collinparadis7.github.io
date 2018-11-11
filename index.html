@@ -165,11 +165,15 @@
   </div>
 <script>
  var w = screen.width;
- //alert(w);
+ alert(w);
  var h= document.documentElement.scrollHeight;
+var orientation = window.screen.orientation;
+alert(orientation);
 var height=h-700;
 if (w<=500){
 document.getElementsByTagName("h3")[2].innerHTML="Projects";
+}
+if(orientation==0 && w<=500){
 document.getElementById("Contact").innerHTML="About";
 document.getElementById("About").innerHTML="Contact";
 document.getElementById("Resume").innerHTML="Clients Websites";
@@ -177,7 +181,21 @@ document.getElementById("ClientsWeb").innerHTML="Resume";
 }
 window.addEventListener("orientationchange", function() {
     alert("the orientation of the device is now " + screen.orientation.angle);
+    orientation = window.screen.orientation;
+    if(orientation==0){
+document.getElementById("Contact").innerHTML="About";
+document.getElementById("About").innerHTML="Contact";
+document.getElementById("Resume").innerHTML="Clients Websites";
+document.getElementById("ClientsWeb").innerHTML="Resume";
+    }
+      if(orientation==90){
+document.getElementById("Contact").innerHTML="Contact";
+document.getElementById("About").innerHTML="About";
+document.getElementById("Resume").innerHTML="Resume";
+document.getElementById("ClientsWeb").innerHTML="Clients Websites";
+    }
 });
+
   function one() {
 document.getElementById("link").src ='//codepen.io/collinp/embed/pOxErL/?height=265&theme-id=0&default-tab=result&embed-version=2';
 }
