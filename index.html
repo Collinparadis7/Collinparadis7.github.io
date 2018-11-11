@@ -175,6 +175,9 @@ document.getElementById("About").innerHTML="Contact";
 document.getElementById("Resume").innerHTML="Clients Websites";
 document.getElementById("ClientsWeb").innerHTML="Resume";
 }
+window.addEventListener("orientationchange", function() {
+    alert("the orientation of the device is now " + screen.orientation.angle);
+});
   function one() {
 document.getElementById("link").src ='//codepen.io/collinp/embed/pOxErL/?height=265&theme-id=0&default-tab=result&embed-version=2';
 }
