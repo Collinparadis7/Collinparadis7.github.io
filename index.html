@@ -182,7 +182,7 @@ document.getElementById("ClientsWeb").innerHTML="Resume";
 window.addEventListener("orientationchange", function() {
     alert("the orientation of the device is now " + screen.orientation.angle);
     orientation = window.screen.orientation;
-    if(orientation==0){
+    if(orientation!=90){
 document.getElementById("Contact").innerHTML="About";
 document.getElementById("About").innerHTML="Contact";
 document.getElementById("Resume").innerHTML="Clients Websites";
