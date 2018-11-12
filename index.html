@@ -167,7 +167,7 @@
  var w = screen.width;
  alert(w);
  var h= document.documentElement.scrollHeight;
-var orientation = window.screen.orientation;
+var orientation = screen.orientation.angle;
 alert(orientation);
 var height=h-700;
 if (w<=500){
@@ -180,15 +180,15 @@ document.getElementById("Resume").innerHTML="Clients Websites";
 document.getElementById("ClientsWeb").innerHTML="Resume";
 }
 window.addEventListener("orientationchange", function() {
-    alert("the orientation of the device is now " + screen.orientation.angle);
-    orientation = window.screen.orientation;
-    if(orientation!=90){
+    //alert("the orientation of the device is now " + screen.orientation.angle);
+
+    if(orientation==0){
 document.getElementById("Contact").innerHTML="About";
 document.getElementById("About").innerHTML="Contact";
 document.getElementById("Resume").innerHTML="Clients Websites";
 document.getElementById("ClientsWeb").innerHTML="Resume";
     }
-      if(orientation==90){
+      if(orientation!=0){
 document.getElementById("Contact").innerHTML="Contact";
 document.getElementById("About").innerHTML="About";
 document.getElementById("Resume").innerHTML="Resume";
