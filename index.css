@@ -556,7 +556,7 @@ margin-left: 5%;
 padding:0 2em 3em
 }
 body,html {
-font-size:16px
+font-size:16px;
 }
 }
 
@@ -844,7 +844,8 @@ font-size:20px;
 line-height:1.8em;
 margin:0;
 overflow-x:hidden;
-padding:0
+padding:0;
+zoom:100%;
 }
 
 button {
