@@ -5,7 +5,7 @@
 <head>
  <link rel="icon" href="fa.png" type="image/gif" sizes="32x32">
   <title>Collin Paradis</title>
-<meta name="viewport" content=" user-scalable=no" />
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
@@ -166,14 +166,11 @@
   </div>
 <script>
  var w = screen.width;
- alert(w);
  var h= document.documentElement.scrollHeight;
-var orientation = window.screen.orientation;
-alert(orientation);
+ var remain=0;
+ var orientation = window.screen.orientation;
+
 var height=h-700;
-if (w<=500){
-document.getElementsByTagName("h3")[2].innerHTML="Projects";
-}
 function timer(){
 setInterval(function(){
 orientation = window.screen.orientation;  
@@ -182,6 +179,7 @@ document.getElementById("Contact").innerHTML="About";
 document.getElementById("About").innerHTML="Contact";
 document.getElementById("Resume").innerHTML="Clients Websites";
 document.getElementById("ClientsWeb").innerHTML="Resume";
+document.getElementsByTagName("h3")[2].innerHTML="Projects";
     }
       if(orientation!=0){
 document.getElementById("Contact").innerHTML="Contact";
@@ -235,6 +233,13 @@ function myFunction() {
         x.className += " responsive";
     } else {
         x.className = "topnav";
+    }
+    remain=remain+1;
+    if(remain%2!=0){
+    document.getElementById("Contact").style.display="inline-block";
+    }
+    if(remain%2==0){
+    document.getElementById("Contact").style.display="none";
     }
 }
 function image(){
