@@ -203,7 +203,7 @@ display: none;
 }
 .diagonal3
 {
-	background: url(http://elms.readyhosting.com/Classes/Web%20Programming/2017/Collin/headerweb2.png) no-repeat;
+	background: url(headerweb2.png) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	color: #fff;
@@ -237,7 +237,7 @@ display: none;
 }
 .diagonal4
 {
-	background: url(http://elms.readyhosting.com/Classes/Web%20Programming/2017/Collin/headercontact.jpg) no-repeat;
+	background: url(headercontact.jpg) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	color: #fff;
